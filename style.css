@@ -1,0 +1,179 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+} 
+body{
+
+    background:url(luke-chesser-CxBx_J3yp9g-unsplash.jpg);
+
+}
+.header{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+
+    z-index: 100;
+}
+
+.navbar a{
+    font-weight: 200;
+    font-size: 17px;
+  display: inline-block;
+  margin-left: 35px;
+  text-decoration: none;
+  color: black;
+  transition: .3s;
+  
+}
+.navbar a:hover{
+    color: blueviolet;
+     
+}
+.home{
+    position: relative;
+    justify-content: space-around;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    animation: slideleft is ease forwards;
+    animation-delay: 3s;
+}
+.icon a{
+display: inline-flex;
+justify-content: center;
+text-decoration: none;
+width: 40px;
+height: 40px;
+align-items: center;
+background: transparent;
+border: 2px solid black;
+border-radius: 50%;
+font-size: 20px;
+color:black;
+margin:30px 18px 30px 0;
+animation: slidetop 1s ease forwards;
+}
+.icon a:hover{
+    background:#73085c;
+    color: black;
+    box-shadow: 0 0 5px #5d39b9,
+    0 0 25px #5d39b9,0 0 50px white,
+    0 0 200px #5d39b9,0 0 200px #5d39b9;
+
+}
+.Box{
+display: inline-flex;
+padding: 12px;
+justify-content: center;
+text-decoration: none;
+align-items: center;
+background: transparent;
+border: 3px solid black;
+border-radius: 40px;
+font-size: 15px;
+color:blck;
+margin:30px 20px 30px 0;
+}
+.Box:hover{
+    box-shadow: 0 0 5px #5d39b9,
+    0 0 25px #5d39b9,0 0 50px white,
+    0 0 200px #5d39b9,0 0 200px #5d39b9;
+}
+.about{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   align-items: center;
+   gap: 1.5rem;
+}
+.img- img{
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 10%;
+    max-width: 600px;
+    height: auto;
+    width: 100%;
+    border-radius: 15px;
+}
+.tex{
+    font-size: 20px;
+    padding-right: 20%;
+}
+.tex span{
+    font-size: 40px;
+    color: rgb(26, 89, 26);
+}
+
+.head1{
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 1rem;
+    padding: 1rem 80px;
+    font-size: 1.2rem;
+}
+.skillbox{
+    padding: 2rem;
+}
+.skillname{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+.skillicon{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.skillssec{
+    padding-top: 100px;
+}
+.head1{
+    font-size: 20px;
+}
+.skillbox:hover{
+    box-shadow: 0 0 5px #5d39b9,
+    0 0 25px #5d39b9,0 0 50px white,
+    0 0 200px #5d39b9,0 0 200px #5d39b9;
+
+}
+#contant{
+    padding-top: 5px;
+    padding:3%;
+}
+.Cot{
+    list-style: none;
+}
+.Cot li{
+    padding:3vh;
+}
+.Cot li a{
+    color:whitesmoke
+}
+#do :hover{
+    box-shadow: 0 0 5px #5d39b9,
+    0 0 25px #5d39b9,0 0 50px white,
+    0 0 200px #5d39b9,0 0 200px #5d39b9;
+}
+#contact{
+    padding-top: 20%;
+} 
